@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import CTA from './components/CTA'
+import NewHero from './components/NewHero'
+import PlatformOverview from './components/PlatformOverview'
 import Footer from './components/Footer'
 
 function App() {
@@ -9,9 +8,8 @@ function App() {
     <div className="min-h-screen bg-white text-gray-900">
       <Navbar />
       <main>
-        <Hero />
-        <Features />
-        <CTA />
+        <NewHero />
+        <PlatformOverview />
       </main>
       <Footer />
     </div>
